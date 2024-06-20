@@ -28,7 +28,7 @@ app.post("/todo",async function(req,res){
 
 
     res.json({
-        msg:"Todo added."
+        msg:"Todo added!"
     })
 
 
@@ -54,7 +54,7 @@ app.put("/completed",async function(req,res){
 
     if(!parsePayload.success){
         res.status(411).json({
-            msg:"You sent the wrong inputs"
+            msg:"You sent the wrong inputs."
         })
     } 
 
@@ -65,7 +65,7 @@ app.put("/completed",async function(req,res){
     })
 
     res.json({
-        msg:"Todo marked  as complete"
+        msg:"Todo marked  as complete!"
     })
 
 
