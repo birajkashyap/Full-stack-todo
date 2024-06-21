@@ -1,6 +1,6 @@
 ## Full stack todo application
 
-The following project is a full stack project with min following features:
+The following project is a full stack project with at least following features:
 
 - Anyone can create a todo
 - Anyone can see their existing todo
